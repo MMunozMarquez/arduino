@@ -1,0 +1,22 @@
+---
+title: "Proyectos con arduino"
+output:
+  html_document:
+    css: "arduino.css"
+    includes:
+      after_body: menu_es.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<p>Página para publicar mis proyectos con arduino.</p>
+
+<p>Más información disponible en la página <a href="https://arduino.proyectos.de/indice.html">Proyectos con Arduino</a></p>
+
+<p>Las sugerencias, contribuciones, traducciones serán bienvenidas. Para ello están disponibles las <a href="https://github.com/MMunozMarquez/arduino/discussions">Discusiones en github</a>.</p>
+
+<p>Fuentes disponibles en <a href="https://github.com/MMunozMarquez/arduino/">Github</a>.</p>
+
+<p><bold>Nota</bold>: Para enlazar esta página use el enlace: <a href="http://arduino.proyectos.de">http://arduino.proyectos.de</a></p>
