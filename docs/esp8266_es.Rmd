@@ -1,0 +1,16 @@
+---
+title: "Proyectos con ESP8266"
+output:
+  html_document:
+    css: "arduino.css"
+    includes:
+      after_body: menu_es.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<p>El ESP8266 es un chip de bajo costo Wi-Fi con un stack TCP/IP completo y un microcontrolador [<a href="https://es.wikipedia.org/wiki/ESP8266">ESP8266 (Wikipedia)</a>]</p>
+
+<p>Después de probarlo todo llega el momento de la instalación definitiva, pero seguro que tarde o temprano toca actualizar el programa que se ha cargado en el microcontrolador. Desconectarlo, conectarlo al ordenador, volver a conectar todos los cables, etc. puede ser una auténtica pesadilla. ¿Cuál es la solución?: Las actualizaciones inalámbricas OTA (Over The Air).</p>

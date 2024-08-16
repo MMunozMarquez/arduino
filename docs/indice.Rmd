@@ -11,7 +11,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-<p>Página para publicar mis proyectos con arduino.</p>
+<p>Página para publicar mis proyectos con arduino y similares.</p>
 
 <p>Más información disponible en la página <a href="https://arduino.proyectos.de/indice.html">Proyectos con Arduino</a></p>
 

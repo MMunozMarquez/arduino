@@ -1,0 +1,16 @@
+---
+title: "ESP8266 Projects"
+output:
+  html_document:
+    css: "arduino.css"
+    includes:
+      after_body: menu.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<p>The ESP8266 is a low-cost Wi-Fi microcontroller, with built-in TCP/IP networking software, and microcontroller capability [<a href="https://en.wikipedia.org/wiki/ESP8266">ESP8266 (Wikipedia)]</a>]</p>
+
+<p>After trying everything, it's time for the final installation, but sooner or later you'll have to update the program that's been loaded into the microcontroller. Disconnecting it, connecting it to the computer, reconnecting all the cables, etc. can be a real nightmare. What's the solution? OTA (Over The Air) wireless updates.</p>
