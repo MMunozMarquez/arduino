@@ -13,4 +13,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <p>El ESP8266 es un chip de bajo costo Wi-Fi con un stack TCP/IP completo y un microcontrolador [<a href="https://es.wikipedia.org/wiki/ESP8266">ESP8266 (Wikipedia)</a>]</p>
 
+<h2>Configurar el gestor de tarjetas</h2>
+
+<p>Para usar la tarjeta ESP8266 es necesario configurar el gestor de tarjetas. Para ello en el entorno <em>Arduino IDE</em> se elige preferencias y en el campo URLs adicionales se introduce la URL <code>http://arduino.esp8266.com/stable/package_esp8266com_index.json</code>.</p>
+
+<h2>Actualizaciones inalámbricas [OTA (Over The Air)]</h2>
+
 <p>Después de probarlo todo llega el momento de la instalación definitiva, pero seguro que tarde o temprano toca actualizar el programa que se ha cargado en el microcontrolador. Desconectarlo, conectarlo al ordenador, volver a conectar todos los cables, etc. puede ser una auténtica pesadilla. ¿Cuál es la solución?: Las actualizaciones inalámbricas OTA (Over The Air).</p>
